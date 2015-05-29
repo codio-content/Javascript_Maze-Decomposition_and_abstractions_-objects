@@ -24,13 +24,20 @@
           keyPressedEvent(keyCode)
        
         })
-        createEmptyMaze()
+        createEmptyMaze(10, 6)
+        addWall(1, 2)
+        addWall(2, 2)
+        addWall(3, 2)
+        addWall(3, 3)
+        addWall(3, 4)
+        addWall(3, 5)
+        addGoal()
         addPlayer()
       } 
             
       
         // Load the user blockly script
-        loadUserScript('/js/js-1.js')
+        loadUserScript('/js/ch-1.js')
     </script>
     
   </head>

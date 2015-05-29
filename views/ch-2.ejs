@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>One</title>
+    
+    <% include include/game.ejs %>    
+ 
+    <script>  
+
+        function checkWall(where) {
+          var x = player.x
+          var y = player.y
+          var hit = false
+
+          switch (where.toUpperCase()) {
+            case 'L':
+              if ( tiles[x-1][y].type == 'wall') {
+                hit = true
+              }
+              break
+            case 'R':
+              if ( tiles[x+1][y].type == 'wall') {
+                hit = true
+              }
+              break
+            case 'U':
+              if ( tiles[x][y-1].type == 'wall') {
+                hit = true
+              }
+              break
+            case 'D':
+              if ( tiles[x][y+1].type == 'wall') {
+                hit = true
+              }
+              break
+          }
+          return hit
+        }       
+      
+      function userScriptLoaded() {
+       
+        keyPressed (function (keyCode) {
+          keyPressedEvent(keyCode)       
+        })        
+        createEmptyMaze(12, 8)
+        addWall(1,1)
+        addWall(4,2)
+        addWall(6,2)
+        addWall(5,5)
+        addGoal()
+        addPlayer()
+      } 
+            
+      
+        // Load the user blockly script
+        loadUserScript('/js/ch-2.js')
+    </script>
+    
+  </head>
+  <body>
+    <div id="game"></div>
+  </body>
+</html>
