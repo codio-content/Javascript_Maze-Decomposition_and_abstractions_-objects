@@ -15,11 +15,15 @@ router.get('/ch-1', function(req, res) {
   res.render('ch-1');
 }); 
 
-// Nasty challenge escape
+// Challenge escape with code
 router.get('/ch-2', function(req, res) {
   res.render('ch-2');
 }); 
 
+// Object creation
+router.get('/js-2', function(req, res) {
+  res.render('js-2');
+}); 
 
 
 
