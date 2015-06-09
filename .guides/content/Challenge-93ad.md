@@ -1,5 +1,5 @@
 |||challenge
-Take a look at the maze on the left. Your job is to somehow get the player to the exit by checting with some code.
+Take a look at the maze on the left. Your job is to somehow get the player to the exit by cheating with some code.
 
 You will need to write code so that when the 'C' key is pressed, you escape.
 

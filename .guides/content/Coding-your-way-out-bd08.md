@@ -13,7 +13,7 @@ if ( checkWall('A') == false) {
 }
 ```
 
-which you can also write shorthand (the `!` character means 'not') as
+which you can also write in shorthand (the `!` character means 'not') as
 
 ```javascript
 if ( ! checkWall('A') ) {
@@ -26,7 +26,7 @@ This is asking "if there is **not** (that's the `!` remember) a wall above the p
 |||challenge
 Using the `checkWall()` function and some `if / else if` statements, get your player to the exit.
 
-Your function should react to any key on the keyboard being pressed, whether arrows or not. Each time a key is pressed, you will 
+Your function should react to any key on the keyboard being pressed, whether arrows or not. 
 
 You have to escape by writing code and you're not allowed to use the `player.x` or `player.y` functions. You are allowed to use `player.moveUp()` type functions though.
 

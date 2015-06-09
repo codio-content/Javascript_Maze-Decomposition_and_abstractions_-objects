@@ -12,6 +12,6 @@ Let's say we want to create an object that stores the following information each
 ## Object creation
 There are actually 2 ways to create a new object in Javascript
 
-1. `gameDetails = {}` as shown in the code.
-1. Or `gameDetails = new Object` would do much the same.
+1. `gameDetails = new Object` as shown in the code.
+1. Or `gameDetails = {}` would do much the same.
 
