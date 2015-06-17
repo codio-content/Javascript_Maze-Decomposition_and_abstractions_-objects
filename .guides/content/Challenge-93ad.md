@@ -7,6 +7,8 @@ Take a look at the previous page for a clue.
 
 The arrow keys work still, but you are walled in!!
 
+{Check It!!|custom}(ch-1)
+
 |||
 
 |||guidance

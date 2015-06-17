@@ -32,6 +32,8 @@ You have to escape by writing code and you're not allowed to use the `player.x` 
 
 You can create a really simply solution that works just for this fixed maze. We will look at more challenging mazes later.
 
+{Check It!!|custom}(ch-2)
+
 |||
 
 
