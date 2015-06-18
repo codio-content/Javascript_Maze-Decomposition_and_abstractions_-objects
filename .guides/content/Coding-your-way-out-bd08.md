@@ -1,4 +1,4 @@
-This next bit is quite fun. It will challenge your ability to write some code and so solve problems.
+The next challenge will test your ability to solve a complex, but fun coding problem.
 
 ## Escape the maze
 We have generated a simple maze and you have to get to the exit. However, we've disabled the arrow keys.

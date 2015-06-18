@@ -6,7 +6,7 @@ In Javascript, an object is a data structure that can contain properties and met
 - **Properties** are usually simple variable values (see the table below) but can also be other (nested) objects.
 - **Methods** *do something*. In code, they are functions that live within an object. From our earlier unit you should know that a function is a sequence of instructions that perform a specific task.
 
-A key purpose of an object is to encapsulate all things relating to that object into a single structure that is defined as one coherent unit. We will dig deeper into objects in a later Unit.
+A key purpose of an object is to encapsulate all things relating to that object into a single structure that is defined as one coherent unit. 
 
 |||
 
@@ -20,7 +20,7 @@ See how the Properties are just values, whereas the Methods actually perform and
 | Object | Properties | Methods |
 |-|-|:-|
 | **Phone** | Color | Power On |
-|       | Silver | Power Off |
+|       | Manufacturer | Power Off |
 |       | Model | Make a Call |
 |       | Screen Size | Send a Text |
 |       | Price | Run an Application |
