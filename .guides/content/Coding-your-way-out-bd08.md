@@ -5,7 +5,7 @@ We have generated a simple maze and you have to get to the exit. However, we've 
 
 
 ## Helper function
-We have provided a helper function `checkWall()` that checks whether there is a wall above, below, left or right as you make a move. To check if there is a wall above, you would call `checkWall('A'). You can also check 'L', 'R' and 'B'.
+We have provided a helper function `checkWall()` that checks whether there is a wall above, below, left or right as you make a move. To check if there is a wall above, you would call `checkWall('A')`. You can also check 'L', 'R' and 'B'.
 
 ```javascript
 if ( checkWall('A') == false) {
@@ -43,7 +43,7 @@ You can create a really simply solution that works just for this fixed maze. We 
 ```javascript
 function keyPressedEvent(keyCode) {
 
-  if( !checkWall('U') )
+  if( !checkWall('A') )
     player.moveUp()
   else if( !checkWall('R') )
     player.moveRight()

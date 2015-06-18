@@ -12,10 +12,10 @@ A key purpose of an object is to encapsulate all things relating to that object 
 
 That definition sounds a bit dry, so let's illustrate it with some examples.
 
-## Real World Obects
+## Real World Objects
 Programming objects are analagous to real world objects. For example, lets think of a smartphone as an object.
 
-See how the Properties are just values, whereas the Methods actually perform and action or task.
+See how the Properties are just values, whereas the Methods actually perform an action or task.
 
 | Object | Properties | Methods |
 |-|-|:-|
