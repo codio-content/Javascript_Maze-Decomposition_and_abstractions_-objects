@@ -9,6 +9,8 @@
       
       function userScriptLoaded() {
         keyPressed (function (keyCode) {
+          
+          
           if ( keyCode == 'LEFT' ) {
             player.moveLeft()
           } 
@@ -21,8 +23,16 @@
           if ( keyCode == 'DOWN' ) {
             player.moveDown()
           }  
+
+          var x = player.x;
+          var y = player.y;
+          
           keyPressedEvent(keyCode)
-       
+          
+          if(player.x != x || player.y != y) {
+            tiles[x][y].entity = null;
+          }
+          
         })
         createEmptyMaze(10, 6)
         addWall(1, 2)
