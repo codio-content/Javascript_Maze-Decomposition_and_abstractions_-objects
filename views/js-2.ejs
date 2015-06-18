@@ -8,7 +8,13 @@
     <script>  
 
       function userScriptLoaded() {
-        endOfTurn (turnTaken)    
+        
+        var _oldEndOfTurnEvent = _endOfTurnEvent;
+        
+        endOfTurn (function() {
+          _oldEndOfTurnEvent();
+          turnTaken()
+        })    
         gameStarted (initGame)
         createRandomMaze(12, 8)
       }       

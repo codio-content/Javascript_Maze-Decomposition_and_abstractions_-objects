@@ -2,7 +2,7 @@ So far, we've been using an object that is created by our game framework, which 
 
 Now let's see how we can create our own object.
 
-Let's say we want to create an object that stores the following information each time a turn is taken
+Let's say we want to create an object that stores the following information each time a turn is taken using the `turnTaken` function on the left.
 
 - The X and Y coordinates of the player
 - The current score
