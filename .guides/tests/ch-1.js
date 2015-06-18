@@ -36,7 +36,7 @@ $.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_
   // one update event to process key event
   update();
 
-  if(player.x == 5 && player.y == 3) {
+  if(!(player.x < 3 && player.y > 2)) {
     return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');      
   }
   
