@@ -1,15 +1,5 @@
-|||challenge
-Take a look at the maze on the left. Your job is to somehow get the player to the exit by cheating with some code.
 
-You will need to write code so that when the 'C' key is pressed, you escape.
-
-Take a look at the previous page for a clue.
-
-The arrow keys work still, but you are walled in!!
-
-{Check It!!|custom}(ch-1)
-
-|||
+{Check It!|assessment}(test-2761918990)
 
 |||guidance
 ## Solution

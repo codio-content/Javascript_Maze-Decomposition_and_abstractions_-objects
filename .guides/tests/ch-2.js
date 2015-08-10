@@ -1,71 +1,54 @@
 
-function checkWall(where) {
-  var x = player.x
-  var y = player.y
-  var hit = false
+var fs = require('fs');
 
-  switch (where.toUpperCase()) {
-    case 'L':
-      if ( tiles[x-1][y].type == 'wall') {
-        hit = true
-      }
-      break
-      case 'R':
-      if ( tiles[x+1][y].type == 'wall') {
-        hit = true
-      }
-      break
-      case 'A':
-      if ( tiles[x][y-1].type == 'wall') {
-        hit = true
-      }
-      break
-      case 'B':
-      if ( tiles[x][y+1].type == 'wall') {
-        hit = true
-      }
-      break
+var up = false;
+var down = false
+var left = false;
+var right = false;
+
+var i = 0;
+var check = '';
+
+global.checkWall = function(c) {
+  return check == c;
+}
+
+var player = { 
+  moveUp: function() {
+    up = true; 
+  },
+  moveDown: function() {
+    down = true; 
+  },
+  moveLeft: function() {
+    left = true; 
+  },
+  moveRight: function() {
+    right = true; 
   }
-  return hit
-} 
+}
 
-$.getScript(window.location.origin + '/public/js/' + window.testEnv.cmd + '.js?_=' + Date.now())
-.done(function (script, status) {
-             
-  keyPressed (function (keyCode) {
-    keyPressedEvent(keyCode)       
-  })        
-  createEmptyMaze(12, 8)
-  addWall(1,1)
-  addWall(4,2)
-  addWall(6,2)
-  addWall(5,5)
-  addGoal()
-  addPlayer()
-
-  var goalFound = false;
+try {
+  var data = fs.readFileSync('/home/codio/workspace/public/js/ch-2.js', 'utf8');
+  eval(data);
   
-  // don't need to flush_stack to server
-  window._flushStack = function() {
-    goalFound = true;
-  }
-  
-  for(var i = 0; i < 100; i++) {
-    resetKeys();
-    // C
-    keyevent({ which: 67, type: 'keydown' });    
-    update()
+  check = 'U';
+  keyPressedEvent();
+  check = 'D';
+  keyPressedEvent();
+  check = 'L';
+  keyPressedEvent();
+  check = 'R';
+  keyPressedEvent();
     
-    if(goalFound) {
-      return codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.SUCCESS, 'Well done!');      
-    }
-  
-  }      
+  if(up && right) {   
+    process.stdout.write('Well done!');  
+    process.exit(0);
+  }
+}
+catch(e) {
+  console.log(e)
+}
 
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.FAILURE, 'Not quite right, try again!');
-  
-})
-.fail(function (jqxhr, settings, exception) {
-  console.log(exception);
-  codio.setButtonValue(window.testEnv.id, codio.BUTTON_STATE.INVALID, exception.message); 
-});
+process.stdout.write('Not quite right, try again!');  
+process.exit(1);

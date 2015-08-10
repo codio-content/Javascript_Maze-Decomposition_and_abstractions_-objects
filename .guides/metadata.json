@@ -12,7 +12,9 @@
    "layout": "1-panel",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Objects-944a.md"
+   "content-file": ".guides/content/Objects-944a.md",
+   "chapter": true,
+   "reset": []
   },
   {
    "id": "c6b8e099-8e69-24e8-72de-198b1b54bd1f",
@@ -20,7 +22,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/What-is-an-Object--c6b8.md"
+   "content-file": ".guides/content/What-is-an-Object--c6b8.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "deca1e9f-df9d-be2-24a1-c673c17d884e",
@@ -28,7 +32,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Game-Examples-deca.md"
+   "content-file": ".guides/content/Game-Examples-deca.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "ffe8a875-a6ad-1aae-389f-d5a914314dd6",
@@ -52,7 +58,9 @@
    "layout": "3-cell",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Referencing-an-Object-ffe8.md"
+   "content-file": ".guides/content/Referencing-an-Object-ffe8.md",
+   "chapter": true,
+   "reset": []
   },
   {
    "id": "93adfbb6-14d4-3058-db8b-650648fad337",
@@ -76,7 +84,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Challenge-93ad.md"
+   "content-file": ".guides/content/Challenge-93ad.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "bd088d49-df5f-1bb0-4314-523629a8ecce",
@@ -100,7 +110,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Coding-your-way-out-bd08.md"
+   "content-file": ".guides/content/Coding-your-way-out-bd08.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "284d7950-b76-5214-bfbf-b4a63814c24b",
@@ -124,7 +136,9 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Creating-your-own-objects-284d.md"
+   "content-file": ".guides/content/Creating-your-own-objects-284d.md",
+   "chapter": true,
+   "reset": []
   },
   {
    "id": "2d8518b7-b528-cdfc-9c1e-818ff065d0a",
@@ -132,7 +146,9 @@
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/That-s-all-folks-2d85.md"
+   "content-file": ".guides/content/That-s-all-folks-2d85.md",
+   "chapter": false,
+   "reset": []
   }
  ],
  "theme": "paper",
