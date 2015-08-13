@@ -18,7 +18,7 @@ Programming objects are analagous to real world objects. For example, lets think
 See how the Properties are just values, whereas the Methods actually perform an action or task.
 
 | Object | Properties | Methods |
-|-|-|:-|
+|-|-|-|
 | **Phone** | Color | Power On |
 |       | Manufacturer | Power Off |
 |       | Model | Make a Call |
