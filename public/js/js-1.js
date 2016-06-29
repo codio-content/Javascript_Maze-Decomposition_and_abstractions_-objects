@@ -6,7 +6,7 @@ function keyPressedEvent(keyCode) {
     player.moveRight()
     showMessage('X:' + player.x + ' Y:' + player.y)
   }
-  
+
 }
 
 
