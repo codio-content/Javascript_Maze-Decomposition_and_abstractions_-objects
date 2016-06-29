@@ -1,0 +1,34 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-2365830075",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Artificial Intelligence",
+   "instructions": "Using the `checkWall()` function and some `if / else if` statements, get your player to the exit.\n\nYour function should react to any key on the keyboard being pressed, whether arrows or not. \n\nYou have to escape by writing code and you're not allowed to use the `player.x` or `player.y` functions. You are allowed to use `player.moveUp()` type functions though.\n\nYou can create a really simply solution that works just for this fixed maze. We will look at more challenging mazes later.\n",
+   "command": "node .guides/tests/ch-2.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2761918990",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Escape",
+   "instructions": "Take a look at the maze on the left. Your job is to somehow get the player to the exit by cheating with some code.\n\nYou will need to write code so that when the 'C' key is pressed, you escape.\n\nTake a look at the previous page for a clue.\n\nThe arrow keys work still, but you are walled in!!\n",
+   "command": "node .guides/tests/ch-1.js",
+   "points": 1
+  }
+ }
+]

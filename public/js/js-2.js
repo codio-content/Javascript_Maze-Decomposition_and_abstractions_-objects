@@ -1,8 +1,8 @@
 
 function initGame() {
-  
+
   gameDetails = new Object
-  
+
 }
 
 function turnTaken() {
@@ -14,7 +14,7 @@ function turnTaken() {
   gameDetails.lastKey = ''
 
   showMessage('X:' + gameDetails.x + ' Y:' + gameDetails.y)
-  
+
 }
 
 
